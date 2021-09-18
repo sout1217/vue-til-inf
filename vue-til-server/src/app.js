@@ -19,7 +19,7 @@ import { authenticateUser } from './utils/auth.js';
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 mongoose.connect(
-  'mongodb+srv://test:1234@cluster0.bo80u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  'mongodb+srv://아이디:비밀번호@cluster0.bo80u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
   },
